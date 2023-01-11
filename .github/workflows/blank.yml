@@ -31,3 +31,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          mkdir test-release
+          
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: poc gitops          
+          
+          
+          
+          
